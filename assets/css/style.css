@@ -1,9 +1,9 @@
 #background {
     background-image: url("../images/broadcityimages/background.jpg");
-    background-size: cover ; 
+    /* background-size: cover ; 
     background-repeat: no-repeat;
     width: 100%;
- 
+  */
 }
 .container{
 background: white;
@@ -13,7 +13,7 @@ height: 650px;
 position: relative;
 }
 
-#logo{
+#start{
     align-content: center;
     height: 300px;
     width: 600px;
