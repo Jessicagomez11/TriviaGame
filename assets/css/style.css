@@ -1,9 +1,9 @@
 #background {
     background-image: url("../images/broadcityimages/background.jpg");
-    /* background-size: cover ; 
-    background-repeat: no-repeat;
-    width: 100%;
-  */
+    background-size: cover ; 
+  
+    width: 100vmax;
+ 
 }
 .container{
 background: white;
@@ -31,4 +31,7 @@ h1{
     font-size: 60px;
     margin-top: -10px;
     letter-spacing: 4px;
+}
+p:hover{
+    background-color: aquamarine;
 }

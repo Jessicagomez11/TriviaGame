@@ -13,29 +13,36 @@
    <div id="background">
 <div class="container">
     <div id="titleDiv">
+        <!-- start page -->
+            <!-- needs and image and a title "broad city triva" -->
+            <!-- needs a start button with a class so that we can use jQuery to call it on the javascript file -->
     <img id="start" src="assets/images/broadcityimages/logo.gif">
     <h1>trivia</h1>
-    </div>
-<!-- start page -->
-    <!-- needs and image and a title "broad city triva" -->
-    <!-- needs a start button with a class so that we can use jQuery to call it on the javascript file -->
+    
+    <h4 id="displayTimer"></h4>
 
 <!-- question page -->
     <!-- this needs the timer at the top -->
+
+    <div id="show-number"></div>
+
+    <br>
+
+    <!-- <button id="stop">Stop</button>
+    <button id="resume">Resume</button> -->
     <!-- an image -->
 
     <!-- the question and answer choices in one div -->
     <div>
+            
         <h4 id="questionGoesHere"></h4>
-        <p id="answerChoicesgoHere"></p>
-        <label for="indoor"> 
-                <input id="indoor" type="radio" name="indoor-outdoor">Indoor 
-              </label>
-              <label for="indoor">
-                <input id="indoor" type="radio" name="indoor-outdoor"> Indoor 
-              </label>
+        <br>
+        
+        <div id="answerChoicesgoHere"></div>
+       
     </div>
-
+    
+</div>
 
 <!-- answer page -->
     <!-- display the time remaining -->
